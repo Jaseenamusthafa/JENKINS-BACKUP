@@ -15,5 +15,5 @@ aws s3 cp /tmp/$BACKUP_NAME $S3_BUCKET/$BACKUP_NAME
 # Remove local backup to save space
 rm /tmp/$BACKUP_NAME
 
-echo "Jenkins backup completed: $BACKUP_NAME"
+echo "Jenkins backup: $BACKUP_NAME"
 echo "This is new line added for testing"
